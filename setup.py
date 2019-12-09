@@ -9,5 +9,5 @@ setup(
     version=__version__,
     packages=find_packages(),
     name="sample",
-    install_requires=[],
+    install_requires=["os"]
 )
